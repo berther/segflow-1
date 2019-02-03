@@ -1,6 +1,6 @@
 # Modalities for semantic segmentation
 
-Using FlowNet for training a PSPNet - Boschert L, Ging S, Siemund H
+Using FlowNet for training a PSPNet - Boschert L, Ging S, Siemund H - 03.02.19
 
 [Full size poster](docs/ModalitiesForSemanticSegmentation.pdf)
 
