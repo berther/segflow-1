@@ -1,0 +1,94 @@
+{
+  "font": "calibri",
+  "font_size": 16,
+  "plot_width": 12,
+  "plot_height": 8,
+  "configs": {
+    "k_test": {
+      "model_list": [
+        ["k_vanilla", "Vanilla"],
+        ["k_flow", "Flow"],
+        ["k_flow_mb_occ", "Flow MB Occ"]
+      ]
+    },
+    "k_test_cat": {
+      "model_list": [
+        ["k_vanilla_cat", "Vanilla Cat"],
+        ["k_flow_cat", "Flow Cat"],
+        ["k_flow_mb_occ_cat", "Flow MB Occ Cat"]
+      ]
+    },
+    "k_test_bal": {
+      "model_list": [
+        ["k_flow_mb_occ", "Flow MB Occ Unbalanced"],
+        ["k_flow_mb_occ_bal", "Flow MB Occ Balanced"]
+      ]
+    },
+    "unbalanced": {
+      "model_list": [
+        ["with_flow_mb_occ_failbal", "Flow MB Occ"],
+        ["with_flow_mb_failbal", "Flow MB"],
+        ["with_flow_occ_failbal", "Flow Occ"],
+        ["with_mb_occ_failbal", "MB Occ"],
+        ["with_flow_failbal", "Flow"],
+        ["with_mb_failbal", "MB"],
+        ["with_occ_failbal", "Occ"],
+        ["vanilla_failbal", "Vanilla"]
+      ]
+    },
+    "balanced": {
+      "model_list": [
+        ["with_flow_mb_occ_bal", "Flow MB Occ"],
+        ["with_flow_mb_bal", "Flow MB"],
+        ["with_flow_occ_bal", "Flow Occ"],
+        ["with_mb_occ_bal", "MB Occ"],
+        ["with_flow_bal", "Flow"],
+        ["with_mb_bal", "MB"],
+        ["with_occ_bal", "Occ"],
+        ["vanilla_bal", "Vanilla"]
+      ]
+    },
+    "unbalanced on categories": {
+      "model_list": [
+        ["with_flow_mb_occ_failbal_cat", "Flow MB Occ"],
+        ["with_flow_mb_failbal_cat", "Flow MB"],
+        ["with_flow_occ_failbal_cat", "Flow Occ"],
+        ["with_mb_occ_failbal_cat", "MB Occ"],
+        ["with_flow_failbal_cat", "Flow"],
+        ["with_mb_failbal_cat", "MB"],
+        ["with_occ_failbal_cat", "Occ"],
+        ["vanilla_failbal_cat", "Vanilla"]
+      ]
+    },
+    "balanced on categories": {
+      "model_list": [
+        ["with_flow_mb_occ_bal_cat", "Flow MB Occ"],
+        ["with_flow_mb_bal_cat", "Flow MB"],
+        ["with_flow_occ_bal_cat", "Flow Occ"],
+        ["with_mb_occ_bal_cat", "MB Occ"],
+        ["with_flow_bal_cat", "Flow"],
+        ["with_mb_bal_cat", "MB"],
+        ["with_occ_bal_cat", "Occ"],
+        ["vanilla_bal_cat", "Vanilla"]
+      ]
+    },
+    "batchsize balanced": {
+      "model_list": [
+        ["with_flow_mb_occ_bal", "Flow MB Occ BS 1 Steps 3000"],
+        ["with_flow_mb_occ_batch4_bal", "Flow MB Occ BS 4 Steps 750"]
+      ]
+    },
+    "comparison two same models": {
+      "model_list": [
+        ["with_flow_mb_occ_failbal", "Flow MB Occ Unbalanced #1"],
+        ["with_flow_mb_occ_failbal2", "Flow MB Occ Unbalanced #2"]
+      ]
+    },
+    "comparison two same models on categories": {
+      "model_list": [
+        ["with_flow_mb_occ_failbal_cat", "Flow MB Occ Unbalanced #1"],
+        ["with_flow_mb_occ_failbal_cat2", "Flow MB Occ Unbalanced #2"]
+      ]
+    }
+  }
+}
